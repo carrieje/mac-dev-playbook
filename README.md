@@ -21,3 +21,5 @@ For installation:
     $ cd ~/dotfiles
     $ bin/install
     $ bin/setup_osx
+
+See also [manual installations](others.md).
