@@ -2,53 +2,51 @@
 homebrew_install_path: /usr/local/homebrew
 homebrew_installed_packages:
   - ansible
-  - docker
-  - git
-  - ssh-copy-id
-  - wget
-  - dockutil
-  - zsh
-  - tmux
-  - mercurial
-  - phpmd
-  - php-code-sniffer
-  - php-cs-fixer
-  - phpunit
-  - php70
-  - php70-intl
-  - php70-imagick
-  - php70-mcrypt
-  - tree
-  - npm
-  - yarn
+  - autojump
   - docker-compose
-  - docker-machine-nfs
-  - composer
+  - docker-machine
+  - dockutil
+  - exiftool
+  - ffmpeg
+  - git
   - git-extras
+  - heroku
+  - hub
+  - imagemagick
+  - npm
+  - ssh-copy-id
+  - tmux
+  - tree
+  - vim
+  - wget
+  - yarn
+  - zsh
 
 homebrew_taps:
   - caskroom/cask
-  - caskroom/versions
-  - homebrew/php
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - google-chrome
-  - firefox
-  - vagrant
-  - virtualbox
-  - phpstorm
-  - slack
-  - istat-menus
   - atom
-  - android-file-transfer
-  - spotify
-  - hipchat
+  - bitwarden
+  - caffeine
+  - docker
+  - firefox
+  - gimp
+  - google-chrome
+  - mattermost
+  - mumble
+  - omnifocus
+  - skype
+  - slack
+  - telegram
+  - torbrowser
+  - transmission
+  - vlc
 
 dockitems_to_remove:
   - Launchpad
   - Mail
-  - Safari
   - Contacts
   - Notes
   - Reminders
@@ -64,36 +62,9 @@ dockitems_to_remove:
   - Siri
 
 dockitems_to_persist:
-  - name: Google Chrome
-    path: "/Applications/Google Chrome.app"
-    pos: 1
-  - name: Firefox
-    path: "/Applications/Firefox.app"
-    pos: 2
-  - name: PhpStorm
-    path: /Applications/PhpStorm.app
-    pos: 3
-  - name: Slack
-    path: /Applications/Slack.app
-    pos: 4
-  - name: VirtualBox
-    path: /Applications/VirtualBox.app
-    pos: 5
   - name: Terminal
     path: /Applications/Utilities/Terminal.app
-    pos: 6
-  - name: Spotify
-    path: /Applications/Spotify.app
-    pos: 7
-  - name: HipChat
-    path: /Applications/HipChat.app
-    pos: 8
-
-
-npm_packages:
-  - grunt
-  - bower
-  - sass
-  - webpack
-  - yo
-  - generator-webapp
+    pos: 1
+  - name: Safari
+    path: /Applications/Safari.app
+    pos: 2
